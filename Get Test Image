@@ -1,0 +1,7 @@
+!wget -q -O image.jpg https://cdn.pixabay.com/photo/2019/03/12/20/39/girl-4051811_960_720.jpg
+
+import cv2
+from google.colab.patches import cv2_imshow
+
+img = cv2.imread("image.jpg")
+cv2_imshow(img)
